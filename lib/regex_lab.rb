@@ -1,8 +1,6 @@
 def starts_with_a_vowel?(word)
   if word.scan(/\b[AEIOUaeiou]*\b/)
     true 
-  else
-    false
   end
 end
 
@@ -17,8 +15,6 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
    if text.scan(/^[A-Z].*\W$/)
      true
-   else
-     false
    end
 end
 
